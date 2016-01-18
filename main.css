@@ -1,0 +1,80 @@
+body {
+  margin: 0 100px;
+  margin-top: 100px;
+}
+
+.container {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.wrapper {
+  width: 80%;
+  float: left;
+  position: relative;
+}
+
+.textD,
+.textN {
+  text-align: center;
+  padding-top: 33px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  padding-left: 100px;
+}
+
+@media (max-width: 1300px) {
+  .textD,
+  .textN {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .textD,
+  .textN {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .textD,
+  .textN {
+    padding-left: 30px;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.night {
+  color: lightblue;
+  background-color: black;
+}
+
+.day {
+  color: black;
+  background-color: white;
+}
+
+#day {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+#night {
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
