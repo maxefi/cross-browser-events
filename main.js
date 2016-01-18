@@ -16,11 +16,11 @@
     if (elem.id === 'day') {
       document.body.className = document.body.className.replace("night", "day");
       h1TextD.className = "textD";
-      h1TextN.className = "textN none"
+      h1TextN.className = "textN none";
     } else if (elem.id === 'night') {
       document.body.className = document.body.className.replace("day", "night");
       h1TextD.className = "textD none";
-      h1TextN.className = "textN"
+      h1TextN.className = "textN";
     }
   };
 
